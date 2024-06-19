@@ -15,7 +15,7 @@ int main(void)
 		putchar(num + '0');
 	}
 
-	putchra('\n');
+	putchar('\n');
 
 	return (0);
 }
