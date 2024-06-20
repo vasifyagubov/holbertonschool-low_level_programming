@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * print_last_digit - bir sayının son basamağını yazdırır
- * @n: kontrol edilecek sayı
+ * print_last_digit - Prints the last digit of a number.
+ * @n: The number in question.
  *
- * Return: sayının son basamağının değeri
+ * Return: Value of the last digit.
  */
 int print_last_digit(int n)
 {
-    int last_digit = n % 10;
+	int last_digit = n % 10;
 
-    if (last_digit < 0)
-        last_digit = -last_digit;
+	if (last_digit < 0)
+		last_digit *= -1;
 
-    _putchar(last_digit + '0');
+	_putchar(last_digit + '0');
 
-    return (last_digit);
+	return (last_digit);
 }
