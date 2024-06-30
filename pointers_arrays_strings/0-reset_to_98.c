@@ -1,25 +1,13 @@
 #include "main.h"
 
 /**
-*_strcat - concatenates  the string pointed to by @src to
-*the end of the string pointed to by @dest
-*@dest: String that will be appended
-*@src: String to be concatenated upon
+*reset_to_98 - function that takes a pointer to an int as parametr and
+*updates the value it points to the 98.
 *
-*Return: returns poiner to @dest
+*@n: This is the entry
 */
 
-
-char *_strcat(char *dest, char *src)
+void reset_to_98(int *n)
 {
-	int i = 0;
-	int len = 0;
-
-	while (dest[i++])
-		len++;
-
-	for (i = 0; src[i]; i++)
-		dest[len++] = src[i];
-
-	return (dest);
+	*n = 98;
 }
