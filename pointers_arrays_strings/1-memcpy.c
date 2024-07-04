@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
 *_memcpy - The _memcpy() function copies n bytes
