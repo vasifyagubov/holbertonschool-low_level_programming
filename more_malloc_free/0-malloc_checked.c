@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <limits.h>
 /**
 * *malloc_checked - allocate memory with malloc
 *@b:unsigned int type
@@ -14,7 +14,7 @@ void *malloc_checked(unsigned int b)
 
 	abc = malloc(b);
 	if (abc = NULL)
-		return (98);
+		exit (98);
 	
 
 	return (abc);
