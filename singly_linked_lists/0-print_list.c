@@ -6,6 +6,13 @@
  * @h: our clone of struct
  * Return: count of node
  */
+
+
+
+
+
+
+
 size_t print_list(const list_t *h)
 {
 	int node = 0;
