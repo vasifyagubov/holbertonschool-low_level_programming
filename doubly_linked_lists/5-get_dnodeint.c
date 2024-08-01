@@ -8,24 +8,21 @@
  * Return: new node
  */
 
-
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	dlistint_t *node = head;
+	dlistint_t *node;
 	unsigned int i = 0;
 
-	while (node != head)
+	node = head;
+	while (node != NULL)
 	{
 		if (i == index)
 		{
 			return (node);
-
 		}
 		node = node->next;
 		i++;
 	}
+
 	return (NULL);
-
-
 }
-
