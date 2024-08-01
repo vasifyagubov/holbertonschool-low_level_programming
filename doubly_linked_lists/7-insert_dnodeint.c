@@ -3,11 +3,11 @@
 #include "lists.h"
 
 /**
- * add_dnodeint - Adds a new node at the beginning of the list.
- * @head: A pointer to the head of the list.
- * @n: The integer data for the new node.
- *
- * Return: Address of the new node, or NULL if it failed.
+ * insert_dnodeint_at_index - function inserts a new node at a given position.
+ * @h: node.
+ * @idx: index which is we should add our new_node
+ * @n: value.
+ * Return: the address of the new node.
  */
 
 
