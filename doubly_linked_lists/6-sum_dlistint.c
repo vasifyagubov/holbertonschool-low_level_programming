@@ -3,10 +3,10 @@
 #include "lists.h"
 
 /**
- * sum_dlistint - Bir dlistint_t bağlı listesindeki tüm verilerin toplamını döndürür.
- * @head: Listenin başına işaretçi.
+ * sum_dlistint - Sum all the data (n) of a dlistint_t linked list.
+ * @head: Pointer to the head of the list.
  *
- * Return: Listenin tüm verilerinin toplamı veya liste boşsa 0.
+ * Return: Sum of all data in the list, or 0 if the list is empty.
  */
 
 
